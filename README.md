@@ -3,10 +3,10 @@
 <!-- **Settings** > **Options** > **Social preview** > **Edit** > **Upload an image...** -->
 
 <!-- ![adicionando-imagem-preview](./img/Imagem-DesafioCriptografia.jpg) -->
-    
+
 </details>
   
-# Decodificador 
+# Decodificador
 
 O desafio proposto neste projeto é trabalhar em uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada. O desafio foi implementada utilizando Javascript, html e css.
 
@@ -31,14 +31,15 @@ Abaixo segue um exemplo em formato de gif:
 
 ## 📁 Acesso ao projeto
 
-Para visualizar o projeto basta clonar o repositório para o seu computador. 
+Para visualizar o projeto basta clonar o repositório para o seu computador.
 
 > obs: Este projeto não tem elementos responsível. Portanto, foi feito com um monitor ultrawide de tamanho 2560x1080 e pode apresentar distorções para outros monitores.
 
 ## 🛠️ Abrir e rodar o projeto
 
-Para abrir e rodar o projeto, utilize o Live Server (extenssão) no vscode e acesse o */index.html*.
+Para abrir e rodar o projeto, utilize o Live Server (extenssão) no vscode e acesse o _/index.html_.
+Você também pode acessar uma preview do projeto clickando em: https://matheusfy.github.io/DesafioCriptografiaAlura/
 
 ## 📚 Mais informações do curso
 
-O curso para conteúdo de estudos para implementação do Desafio foi oferecido pela parceiria entre **Oracle + Alura**. 
+O curso para conteúdo de estudos para implementação do Desafio foi oferecido pela parceiria entre **Oracle + Alura**.
