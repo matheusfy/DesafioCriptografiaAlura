@@ -1,0 +1,221 @@
+:root {
+  --blue: #6495ed;
+  --white: #faf0e6;
+  --light-bluelight-blue-100: #f3f5fc;
+  --black: #000000;
+  --dark-blue-300: #0a3871;
+  --gray-400: #495057;
+  --dark-blue-400: #072b61;
+  --light-bluelight-blue-200: #eff1fa;
+}
+
+* {
+  font-family: "Inter-Regular", sans-serif;
+}
+
+/* header */
+
+.Aluralogo {
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 5%;
+}
+
+/* body */
+
+body {
+  background-color: var(--light-bluelight-blue-100);
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 80px;
+  box-sizing: border-box;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.information .text-area {
+  width: 680px;
+  height: 678px;
+  border: none;
+  resize: none;
+  font-weight: 400;
+  background-color: var(--light-bluelight-blue-100);
+  font-size: 32px;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+  color: #0a3871;
+}
+
+.information .container_aviso {
+  display: flex;
+  color: var(--gray-400);
+  font-size: 12px;
+  gap: 8px;
+  align-items: center;
+}
+
+.information .container_aviso .bi-exclamation {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.information .container_buttons {
+  display: flex;
+  width: 680px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.information .container_buttons .button_encode {
+  width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: var(--dark-blue-300);
+  font-size: 1rem;
+  color: white;
+}
+
+.information .container_buttons .button_encode:hover {
+  width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: var(--dark-blue-400);
+  font-size: 1rem;
+  color: white;
+}
+
+.information .container_buttons .button_decode {
+  width: 328px;
+  border-radius: 24px;
+  font-size: 1rem;
+
+  padding: 24px;
+  border: 1px solid var(--dark-blue-300);
+  background-color: var(--light-bluelight-blue-100);
+}
+
+.information .container_buttons .button_decode:hover {
+  width: 328px;
+  border-radius: 24px;
+  font-size: 1rem;
+
+  padding: 24px;
+  border: 1px solid var(--dark-blue-300);
+  background-color: var(--light-bluelight-blue-200);
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 400px;
+  border-radius: 32px;
+  font-size: 1.25rem;
+  background-color: white;
+  font-size: 24px;
+  color: #495057;
+  font-weight: 400;
+  line-height: 36px;
+  height: 100%;
+}
+
+.mensagem .overlap {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 32px;
+  align-items: center;
+}
+
+.mensagem .overlap .mensagem_vazia {
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagem .overlap .mensagem_vazia .texts_aviso {
+  font-weight: 700;
+  /* font-size: 16px; */
+  text-align: center;
+}
+
+.mensagem .overlap .mensagem_vazia .NotFindText {
+  font-weight: 400;
+  font-size: 1rem;
+
+  line-height: 24px;
+  color: var(--gray-400);
+  justify-content: center;
+  text-justify: auto;
+}
+
+.mensagem .traduzido {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 336px;
+  padding: 32px;
+}
+
+.mensagem .traduzido .texto_traduzido {
+  border: none;
+  resize: none;
+  width: 336px;
+  height: 700px;
+  color: var(--gray-400);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+:disabled {
+  background-color: white;
+}
+
+.mensagem .traduzido .botao_copiar {
+  border: 1px var(--dark-blue-300) solid;
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--dark-blue-300);
+  align-items: center;
+  background-color: white;
+  padding: 24px;
+  width: 336px;
+}
+
+.mensagem .traduzido .botao_copiar:hover {
+  background-color: var(--light-bluelight-blue-200);
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  text-align: center;
+  color: #000000;
+  background-color: var(--light-bluelight-blue-100);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}

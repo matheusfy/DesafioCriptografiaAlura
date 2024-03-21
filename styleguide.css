@@ -1,0 +1,20 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --dark-bluedark-blue-100: rgba(96, 158, 212, 1);
+    --dark-bluedark-blue-200: rgba(53, 110, 169, 1);
+    --dark-bluedark-blue-300: rgba(10, 56, 113, 1);
+    --dark-bluedark-blue-400: rgba(7, 43, 97, 1);
+    --dark-bluedark-blue-500: rgba(5, 32, 81, 1);
+    --light-bluelight-blue-100: rgba(243, 245, 252, 1);
+    --light-bluelight-blue-200: rgba(239, 241, 250, 1);
+    --light-bluelight-blue-300: rgba(233, 236, 248, 1);
+    --light-bluelight-blue-400: rgba(170, 178, 213, 1);
+    --light-bluelight-blue-500: rgba(117, 127, 178, 1);
+    --graygray-100: rgba(206, 212, 218, 1);
+    --graygray-200: rgba(173, 181, 189, 1);
+    --graygray-300: rgba(134, 142, 150, 1);
+    --graygray-400: rgba(73, 80, 87, 1);
+    --graygray-500: rgba(52, 58, 64, 1);
+    --shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+	

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="rules.js"></script>
+  </head>
+  <body>
+    <head>
+      <img class="Aluralogo" src="./img/logo.svg" />
+    </head>
+
+    <main>
+      <section>
+        <div class="information">
+          <textarea
+            id="text"
+            class="text-area"
+            cols="41"
+            rows="4"
+            placeholder="Digite seu texto"
+          ></textarea>
+
+          <!-- divisao aviso -->
+          <div class="container_aviso">
+            <img
+              class="bi-exclamation"
+              src="img\bi_exclamation-circle-fill.svg"
+            />
+            <p class="texto_aviso">Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <!-- Botoes -->
+          <div class="container_buttons">
+            <button onclick="botaoCriptografar()" class="button_encode">
+              Criptografar
+            </button>
+            <button onclick="botaoDescriptografar()" class="button_decode">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="mensagem">
+          <div class="traduzido" id="traduzido">
+            <textarea
+              class="texto_traduzido"
+              id="texto_traduzido"
+              disabled
+            ></textarea>
+            <button onclick="botaoCopiar()" class="botao_copiar">Copiar</button>
+          </div>
+
+          <div class="overlap" id="overlap">
+            <img src="./img/boneco.svg" alt="boneco procurando mensagem" />
+
+            <div class="mensagem-vazia">
+              <h2 class="texts_aviso">Nenhuma mensagem encontrada</h2>
+              <p class="NotFindText">
+                Digite um texto que você deseja criptografar ou descriptografar
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>Desenvolvido por <a href="https://github.com/matheusfy">Matheus</a></p>
+      <a href="https://github.com/matheusfy" class="desenvolvidoPor"></a>
+      <img src="./img/icon-github.svg" alt="imagem do github" />
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
