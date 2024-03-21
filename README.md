@@ -33,7 +33,7 @@ Abaixo segue um exemplo em formato de gif:
 
 Para visualizar o projeto basta clonar o repositório para o seu computador.
 
-> obs: Este projeto não tem elementos responsível. Portanto, foi feito com um monitor ultrawide de tamanho 2560x1080 e pode apresentar distorções para outros monitores.
+> obs: Este projeto não tem elementos responsíveis. Portanto, foi feito com um monitor ultrawide de tamanho 2560x1080 e pode apresentar distorções para outros monitores.
 
 ## 🛠️ Abrir e rodar o projeto
 
